@@ -1,0 +1,30 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Build files
+build/
+
+# Bindata file
+server/bindata.go
+
+# Ratel2
+ratel2/node_modules/
+
+.DS_Store
+.vagrant
+
+# Dgraph
+*.vlog
+*.sst
+LOCK
+KEYREGISTRY
+MANIFEST
